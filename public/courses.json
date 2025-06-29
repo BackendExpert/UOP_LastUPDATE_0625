@@ -1,0 +1,121 @@
+{
+    "diplomas": [
+      {
+        "name": "Diploma in Management and Development",
+        "offeredBy": "Centre for Distance and Continuing Education (CDCE)",
+        "link": "https://cdce.pdn.ac.lk/diploma2.php"
+      },
+      {
+        "name": "Diploma in Library and Information Services",
+        "offeredBy": "Centre for Distance and Continuing Education (CDCE)",
+        "link": "https://cdce.pdn.ac.lk/diploma2.php"
+      },
+      {
+        "name": "Diploma in Early Childhood Care and Development",
+        "offeredBy": "Centre for Distance and Continuing Education (CDCE)",
+        "link": "https://cdce.pdn.ac.lk/diploma2.php"
+      },
+      {
+        "name": "Diploma in Laboratory Technology",
+        "offeredBy": "Centre for Distance and Continuing Education (CDCE)",
+        "link": "https://cdce.pdn.ac.lk/diploma2.php"
+      },
+      {
+        "name": "Diploma in Computing and Electronics",
+        "offeredBy": "Centre for Distance and Continuing Education (CDCE)",
+        "link": "https://cdce.pdn.ac.lk/diploma2.php"
+      },
+      {
+        "name": "Diploma in Exercise and Sport Sciences",
+        "offeredBy": "Faculty of Medicine",
+        "link": "https://med.pdn.ac.lk/departments/sportsciences/index.php"
+      },
+      {
+        "name": "Diploma in Human Rights",
+        "offeredBy": "Centre for the Study of Human Rights",
+        "link": "https://arts.pdn.ac.lk/cshr/"
+      }
+    ],  
+   "certificates": [
+  {
+    "name": "Certificate Course in Basic Tamil",
+    "offeredBy": "Centre for Distance and Continuing Education (CDCE)",
+    "link": "https://cdce.pdn.ac.lk/certificate.php",
+    "image": "/tamil3.jpg"
+  },
+  {
+    "name": "Advanced Certificate in Laboratory Handling",
+    "offeredBy": "Centre for Distance and Continuing Education (CDCE)",
+    "link": "https://cdce.pdn.ac.lk/certificate2.php",
+    "image": "/lab2.jpg"
+  },
+  {
+    "name": "Certificate Course in Human Rights",
+    "offeredBy": "Centre for the Study of Human Rights",
+    "link": "https://arts.pdn.ac.lk/cshr/",
+     "image": "/hr.jpg"
+  },
+  {
+    "name": "Certificate Course in English for Professionals",
+    "offeredBy": "Department of English, Faculty of Arts",
+    "link": "https://arts.pdn.ac.lk/english/",
+      "image": "/english.jpg"
+  },
+  {
+    "name": "Extension Course in General English",
+    "offeredBy": "Department of English, Faculty of Arts",
+    "link": "https://arts.pdn.ac.lk/academic/ex_pro.php",
+    "image": "/english2.jpg"
+  },
+  {
+    "name": "Certificate Course in Steam Engineering",
+    "offeredBy": "Department of Mechanical Engineering, Faculty of Engineering",
+    "link": "https://eng.pdn.ac.lk/ME/UPDATE/academic/certificate-courses/",
+    "image": "/engineering.jpg"
+  },
+  {
+    "name": "Renewable Energy Programmes",
+    "offeredBy": "Department of Mechanical Engineering, Faculty of Engineering",
+    "link": "https://eng.pdn.ac.lk/ME/UPDATE/academic/certificate-courses/",
+     "image": "/energy.jpg"
+  },
+  {
+    "name": "Advanced Certificate in Caregiving",
+    "offeredBy": "Faculty of Allied Health Sciences",
+    "link": "https://ahs.pdn.ac.lk/dept_and_unit/Nur/certificate1",
+    "image": "/care.jpeg"
+  },
+  {
+    "name": "Advanced Certificate Course in Counseling Psychology",
+    "offeredBy": "Department of Psychology, Faculty of Arts",
+    "link": "https://arts.pdn.ac.lk/main/downloads/general/ACCCP.pdf",
+     "image": "/counsling.jpeg"
+  },
+  {
+    "name": "Open Source Geographic Information System for Environmental Management",
+    "offeredBy": "Centre for Environmental Sustainability",
+    "link": "https://ces.pdn.ac.lk/CC.php",
+    "image": "/gis.jpg"
+  },
+  {
+    "name": "Certificate Course on Sustainable Management of the Environment for Better Human Health",
+    "offeredBy": "Centre for Environmental Sustainability",
+    "link": "https://ces.pdn.ac.lk/CC.php",
+    "image": "/envi.jpeg"
+  },
+  {
+    "name": "CCNA Certification Course",
+    "offeredBy": "IT Center",
+    "link": "https://www.pdn.ac.lk/uop_ccna_2024/",
+    "image": "/ccna.jpeg"
+  },
+  {
+    "name": "Short Course: Essential Fundamentals of IT, Mathematics, and Data Science",
+    "offeredBy": "Centre for Distance and Continuing Education",
+    "link": "https://cdce.pdn.ac.lk/short-courses.php",
+    "image":"/ds.jpeg"
+  }
+]
+
+  }
+  

@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/png" href="./src/assets/logo.png" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>University of Peradeniya | UOP</title>
+
+  <!-- Google Translate Initialization -->
+  <script type="text/javascript">
+    function googleTranslateElementInit() {
+      new google.translate.TranslateElement({
+        pageLanguage: 'en',
+        includedLanguages: 'en,si,ta',
+        layout: google.translate.TranslateElement.InlineLayout.SIMPLE
+      }, 'google_translate_element');
+    }
+  </script>
+  <script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit">
+  </script>
+
+  <style>
+    #language_selector {
+      position: fixed;
+      top: 130px;
+      right: 10px;
+      z-index: 9999;
+      font-family: Arial, sans-serif;
+      font-size: 18px;
+      background-color: transparent;
+    }
+
+    #language_selector a {
+      color: white;
+      text-decoration: none;
+      margin-left: 15px;
+      cursor: pointer;
+      font-weight: 700;
+      font-size: 18px;
+
+      /* Yellow border using text-shadow */
+      text-shadow:
+        -1px -1px 0 #e8b910,
+        1px -1px 0 #e8b910,
+        -1px 1px 0 #e8b910,
+        1px 1px 0 #e8b910;
+    }
+
+    #language_selector a:hover {
+      text-decoration: underline;
+    }
+
+    #google_translate_element {
+      position: absolute !important;
+      top: -9999px !important;
+      left: -9999px !important;
+      width: 0 !important;
+      height: 0 !important;
+      overflow: hidden !important;
+    }
+
+    .goog-logo-link,
+    .goog-te-gadget span {
+      display: none !important;
+    }
+
+    /* On mobile screens */
+    @media (max-width: 600px) {
+      #language_selector {
+        top: 25px;
+        right: 70px;
+        font-size: 16px;
+      }
+
+      #language_selector a {
+        margin-left: 10px;
+        font-size: 16px;
+      }
+    }
+  </style>
+
+  <script>
+    function setCookie(name, value, days) {
+      let expires = "";
+      if (days) {
+        const date = new Date();
+        date.setTime(date.getTime() + (days * 24 * 60 * 60 * 1000));
+        expires = "; expires=" + date.toUTCString();
+      }
+      document.cookie = name + "=" + (value || "") + expires + "; path=/";
+    }
+
+    function changeLanguage(lang) {
+      if (lang === 'en') {
+        setCookie('googtrans', '/en/en', 1);
+      } else {
+        setCookie('googtrans', '/en/' + lang, 1);
+      }
+      window.location.reload();
+    }
+
+    (function () {
+      const googtrans = document.cookie.match('(^|;)\\s*googtrans\\s*=\\s*([^;]+)');
+      if (googtrans) {
+        const val = googtrans.pop();
+        if (val && val !== '/en/en') {
+          window.location.hash = val;
+        }
+      }
+    })();
+  </script>
+</head>
+
+<body>
+  <div id="language_selector">
+    <a translate="no" onclick="changeLanguage('en')">A</a>
+    <a translate="no" onclick="changeLanguage('si')">සිං</a>
+    <a translate="no" onclick="changeLanguage('ta')">த</a>
+  </div>
+
+  <div id="google_translate_element"></div>
+
+  <div id="root"></div>
+
+  <script src="node_modules/aos/dist/aos.js"></script>
+  <script type="module" src="/src/main.jsx"></script>
+
+  <script>
+    AOS.init();
+  </script>
+</body>
+
+</html>
