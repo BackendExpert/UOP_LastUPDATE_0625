@@ -23,14 +23,13 @@ const MainNav = () => {
     const handleSubmit = (e) => {
         e.preventDefault();
         if (searchQuery.trim()) {
-            // Redirect to search page with query param
             navigate(`/search?query=${encodeURIComponent(searchQuery.trim())}`);
             closeModal();
         }
     };
 
     return (
-        <div className='xl:px-20 px-4 py-4 bg-[#560606] text-white'>
+        <div className='xl:px-20 px-4 py-4 bg-white text-[#560606]'>
             <div className="flex justify-between">
                 <div>
                     <a href="/">
@@ -42,34 +41,30 @@ const MainNav = () => {
                         <div className="flex items-center space-x-4">
                             {MainNavData.map((item, index) => (
                                 <div className="font-semibold" key={index}>
-                                    <a href={item.link} className="text-white">{item.name}</a>
+                                    <a href={item.link} className="text-[#560606] hover:underline">{item.name}</a>
                                     {item.id === 7 ? null : <span className="mx-2">|</span>}
                                 </div>
                             ))}
 
                             <div className="xl:block hidden">
-                                <div className="flex justify-end space-x-4 ">
+                                <div className="flex justify-end space-x-4">
                                     <a href="" target="_blank" rel="noopener noreferrer">
-                                        <FaFacebook className='h-5 w-auto' />
+                                        <FaFacebook className='h-5 w-auto text-[#560606]' />
                                     </a>
                                     <a href="" target="_blank" rel="noopener noreferrer">
-                                        <FaX className='h-5 w-auto' />
+                                        <FaX className='h-5 w-auto text-[#560606]' />
                                     </a>
                                     <a href="" target="_blank" rel="noopener noreferrer">
-                                        <FaYoutube className='h-5 w-auto' />
+                                        <FaYoutube className='h-5 w-auto text-[#560606]' />
                                     </a>
                                     <a href="" target="_blank" rel="noopener noreferrer">
-                                        <FaLinkedinIn className='h-5 w-auto' />
+                                        <FaLinkedinIn className='h-5 w-auto text-[#560606]' />
                                     </a>
                                 </div>
                             </div>
-                            <FaSearch className='h-6 w-auto cursor-pointer' onClick={openModal} />
-
-                            
+                            <FaSearch className='h-6 w-auto cursor-pointer text-[#560606]' onClick={openModal} />
                         </div>
                     </div>
-
-
                 </div>
             </div>
 
@@ -86,13 +81,13 @@ const MainNav = () => {
                         onSubmit={handleSubmit}
                         className='bg-white max-w-4xl w-full rounded-lg shadow-lg p-6'
                     >
-                        <h2 className='text-xl font-semibold mb-4'>Search</h2>
+                        <h2 className='text-xl font-semibold mb-4 text-[#560606]'>Search</h2>
                         <input
                             type='text'
                             value={searchQuery}
                             onChange={(e) => setSearchQuery(e.target.value)}
                             placeholder='Search...'
-                            className='text-gray-800 h-10 w-full mb-4 p-2 border rounded'
+                            className='text-[#560606] h-10 w-full mb-4 p-2 border rounded'
                             autoFocus
                         />
                         <div className="flex justify-end space-x-3">
