@@ -181,14 +181,14 @@ const secNavData = [
         name: "Publications",
         submenu: [
             { id: 1, link: '/Publications', name: 'Annual Reports' },
-            { id: 1, link: 'http://dlib.pdn.ac.lk/', name: 'Digital Library' },
+            { id: 1, link: '/Publications', name: 'Digital Library' },
             { id: 1, link: '/Publications', name: 'Journals' },
             { id: 1, link: '/Publications', name: 'Newsletters' },
             { id: 1, link: '/Publications', name: 'Sustainability Report' },
             { id: 1, link: '/Publications', name: 'Statistical Handbook' },
-            { id: 1, link: 'https://www.pdn.ac.lk/university-calendars/', name: 'University Calendar' },
-            { id: 1, link: 'https://www.pdn.ac.lk/wp-content/uploads/2024/08/Booklet-CDP-2042.pdf', name: 'Centenary Development Plan' },
-            { id: 1, link: 'https://www.pdn.ac.lk/wp-content/uploads/2024/09/Action-plan-2024-1.pdf', name: 'Action Plan' },
+            { id: 1, link: '/Publications', name: 'University Calendar' },
+            { id: 1, link: '/Publications', name: 'Centenary Development Plan' },
+            { id: 1, link: '/Publications', name: 'Action Plan' },
         ]
     },
 
